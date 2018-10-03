@@ -10,7 +10,7 @@ script:
 
 deploy:
   provider: elasticbeanstalk
-  region: : "eu-central-1"
+  region: "eu-central-1"
   app: "learn-docker-react"
   env: "LearnDockerReact-env"
   bucket_name: "elasticbeanstalk-eu-central-1-108020393576" 
@@ -20,4 +20,3 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key:
     secure: "$AWS_SECRET_KEY"
-    
